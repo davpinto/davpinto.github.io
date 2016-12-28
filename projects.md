@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Projects
-subtitle: My personal projects
+subtitle: My personal projects.
 ---
 
 ## R Packages
