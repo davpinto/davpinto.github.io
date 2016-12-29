@@ -1,47 +1,33 @@
 ---
 layout: page
 title: "David Pinto"
-subtitle: Data Scientist / Web Dev / Tool Builder / Datavis Lover 
+subtitle: "Data Scientist / Web Dev / Tool Builder / Datavis Lover"
 css: "/css/index.css"
 meta-title: "David Pinto"
-meta-description: "MSc in Computational Intelligence with a Bachelor of Control Engineering. Work experience as a software engineer and web developer. Currently works as a Data Scientist on Nexer Labs"
+meta-description: "MSc in Computational Intelligence with a Bachelor of Control Engineering. Work experience as a software engineer, web developer, and data scientist."
+bigimg: "/img/background.jpg"
 ---
 
 <div class="posts-list">
-  {% for post in paginator.posts %}
-  <article class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-	  <h2 class="post-title">{{ post.title }}</h2>
+  {% for post in site.tags.tutorial %}
+  <article>
+    <a class="post-preview" href="{{ post.url | prepend: site.baseurl }}">
+	    <h2 class="post-title">{{ post.title }}</h2>
+	
+	    {% if post.subtitle %}
+	    <h3 class="post-subtitle">
+	      {{ post.subtitle }}
+	    </h3>
+	    {% endif %}
+      <p class="post-meta">
+        Posted on {{ post.date | date: "%B %-d, %Y" }}
+      </p>
 
-	  {% if post.subtitle %}
-	  <h3 class="post-subtitle">
-	    {{ post.subtitle }}
-	  </h3>
-	  {% endif %}
-    </a>
-
-    <p class="post-meta">
-      Posted on {{ post.date | date: "%B %-d, %Y" }}
-    </p>
-
-    <div class="post-entry">
-      {{ post.content | strip_html | xml_escape | truncatewords: 50 }}
-	  <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
-    </div>
-
-    {% if post.tags.size > 0 %}
-    <div class="blog-tags">
-      Tags: 
-      {% if site.link-tags %}
-      {% for tag in post.tags %}
-      <a href="{{ site.baseurl }}/tag/{{ tag }}">{{ tag }}</a>
-      {% endfor %}
-      {% else %}
-        {{ post.tags | join: ", " }}
-      {% endif %}
-    </div>
-    {% endif %}
-
+      <div class="post-entry">
+        {{ post.content | truncatewords: 50 | strip_html | xml_escape}}
+        <span href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</span>
+      </div>
+    </a>  
    </article>
   {% endfor %}
 </div>
