@@ -2,6 +2,7 @@
 layout: page
 title: Projects
 subtitle: My personal projects.
+comments: true
 ---
 
 ## R Packages
@@ -14,7 +15,7 @@ subtitle: My personal projects.
 
 - [h2o-tutorial](https://davpinto.github.io/h2o-tutorial/): H2O Tuning and Ensembling Tutorial for R.
 
-## Shiny Applications
+## R Shiny Applications
 
 - [Pruned Extreme Learning Machine](https://beta.rstudioconnect.com/davidpinto/elm-shiny/): measuring neuron importance with the F-score measure on SLFNs trained by the ELM algorithm, and eliminating the non-important ones to avoid overfitting.
 
@@ -31,3 +32,5 @@ subtitle: My personal projects.
 ## Master's Thesis
 
 My Master's thesis on **Bayesian Classification with Regularized Gaussian Models**: [Master's Thesis](https://github.com/davpinto/master-thesis).
+
+----
