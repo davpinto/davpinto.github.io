@@ -16,15 +16,17 @@ subtitle: My personal projects.
 
 ## Shiny Applications
 
-----
+- [Pruned Extreme Learning Machine](https://beta.rstudioconnect.com/davidpinto/elm-shiny/): measuring neuron importance with the F-score measure on SLFNs trained by the ELM algorithm, and eliminating the non-important ones to avoid overfitting.
 
-----
+## Machine Learning Animations
 
-## Machine Learning Simulations
-
-----
-
-----
+- [Gradient Boosting Machine](https://davpinto.github.io/ml-simulations/#gradient-boosting-machine-iterations).
+- [K-Nearest Neighbors Classifier](https://davpinto.github.io/ml-simulations/#k-nearest-neighbors-classifier).
+- [EM Algorithm](https://davpinto.github.io/ml-simulations/#expectation-maximization-algorithm).
+- [Gaussian Mixture Density](https://davpinto.github.io/ml-simulations/#gaussian-mixture-density).
+- [Regularized ELM](https://davpinto.github.io/ml-simulations/#regularized-extreme-learning-machine).
+- [K-Means Clustering](https://davpinto.github.io/ml-simulations/#image-segmentation-with-k-means).
+- [Principal Components Analysis](https://davpinto.github.io/ml-simulations/#image-reconstruction-with-principal-components-analysis).
 
 ## Master's Thesis
 
