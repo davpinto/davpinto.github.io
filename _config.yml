@@ -79,7 +79,7 @@ share-links-active:
 # --- Misc --- #
 
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-disqus: "davpinto-site"
+disqus: "davpinto"
 
 # Fill in your Google Analytics ID to track your website using GA
 google_analytics: "UA-89616400-1"
