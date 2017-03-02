@@ -13,7 +13,9 @@ comments: true
 
 ## Tutorials
 
-- [h2o-tutorial](https://davpinto.github.io/h2o-tutorial/): H2O Tuning and Ensembling Tutorial for R.
+- [EDA with R](https://davpinto.github.io/mmlbh-eda): Exploratory Data Analysis with R (*in Portuguese*).
+- [Data Science Roadmap](http://davpinto.com/ml-presentation): How to start with Machine Learning and Data Science in **Python** and **R** (*in Portuguese*).
+- [H2O.ai Tutorial](https://davpinto.github.io/h2o-tutorial/): H2O Tuning and Ensembling Tutorial for R.
 
 ## R Shiny Applications
 
