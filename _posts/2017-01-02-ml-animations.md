@@ -1,0 +1,9 @@
+---
+layout: post
+title: Machine Learning Animations
+subtitle: Understanding machine learning algorithms through animated visualizations
+comments: true
+tags: [rstats, machine-learning, animation, dataviz]
+---
+
+I just published some beautiful animated visualizations for popular machine learning algorithms, built with the awesome `R` package [animation](https://github.com/yihui/animation). Take a look at them: [Machine Learning Animations](https://davpinto.github.io/ml-simulations). They help to understand parameter tuning and algorithm convergence. You can find the source code in my [GitHub](https://github.com/davpinto/ml-simulations). I will be constantly adding new animations!
