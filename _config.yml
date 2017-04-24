@@ -27,7 +27,7 @@ navbar-links:
   Projects: "projects"
   Resources:
     - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
-    - Learn markdown: "http://www.markdowntutorial.com/"
+    - Learn markdown: "https://guides.github.com/features/mastering-markdown/"
     - RMarkdown: "http://rmarkdown.rstudio.com/"
     - GitHub Pages: "https://pages.github.com/"
     - R Cheatsheets: "https://www.rstudio.com/resources/cheatsheets/"
