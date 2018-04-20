@@ -13,6 +13,7 @@ comments: true
 
 ## Tutorials
 
+- [Feature Engineering](https://davpinto.github.io/mmlbh-feature-engineering): Using Feature Engineering to improve Model Prediction performance (**in Portuguese**).
 - [Intro to Kaggle](https://davpinto.github.io/mmlbh-kaggle): Deliberate Practice and Kaggle Datasets (*in Portuguese*).
 - [EDA with R](https://davpinto.github.io/mmlbh-eda): Exploratory Data Analysis with R (*in Portuguese*).
 - [Data Science Roadmap](http://davpinto.com/ml-presentation): How to start with Machine Learning and Data Science in **Python** and **R** (*in Portuguese*).
